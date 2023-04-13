@@ -16,6 +16,7 @@ dependencies {
     implementation group: 'org.telegram', name: 'telegrambots', version: '6.5.0'
     implementation group: 'org.jsoup', name: 'jsoup', version: '1.15.4'
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.10.1'
+    implementation group: 'org.telegram', name: 'telegrambotsextensions', version: '6.5.0'
 
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.26'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
