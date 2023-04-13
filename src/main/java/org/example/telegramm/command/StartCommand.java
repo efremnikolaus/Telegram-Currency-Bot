@@ -33,7 +33,7 @@ public class StartCommand extends BotCommand {
         message.setText(text);
         message.setChatId(Long.toString(chat.getId()));
 
-        List<InlineKeyboardButton> buttons = Stream.of(Currency.USD, Currency.EUR, Currency.UAH)
+        List<InlineKeyboardButton> buttons = Stream.of(Currency.USD, Currency.EUR)
                 .map(Enum::name)
                 .map(it -> InlineKeyboardButton.builder().text(it).callbackData(it).build())
                 .toList();
