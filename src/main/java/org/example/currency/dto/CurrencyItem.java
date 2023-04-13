@@ -1,7 +1,6 @@
-package org.example.feature.currency.dto;
+package org.example.currency.dto;
 
 import lombok.Data;
-import org.example.feature.currency.Currency;
 
 @Data
 public class CurrencyItem {
