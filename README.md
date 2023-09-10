@@ -15,4 +15,4 @@ This Telegram bot, written in Java, provides real-time currency exchange rate in
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/currency-exchange-bot-java.git
+git clone https://github.com/efremnikolaus/telegram-currency-bot.git
